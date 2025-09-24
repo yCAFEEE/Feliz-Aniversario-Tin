@@ -26,14 +26,20 @@ int main(){
     int ano_atual = times_legais->tm_year + 1900;
     int mes_atual = times_legais->tm_mon + 1;
     int dia = times_legais->tm_mday;
-    int idade_Tin = ano_atual - 2019;
+    int idade_Tin = mes_atual - 11 < 0 ? (ano_atual - 2019) - 1 : (ano_atual - 2019);
+    idade_Tin = mes_atual == 0 && dia == 0 ? idade_Tin + 1 : idade_Tin;
 
     if(mes_atual == 11 && dia == 27){
-
+        text();
+        cake(rand() % 3);
+        num(idade_Tin);
     }else{
         int mes_falta = 11 - mes_atual;
         int dia_falta = 27 - dia;
 
+        if(mes_falta == 0 && dia_falta < 0){
+            mes_falta += 11;
+        }
         if(mes_falta < 0){
             mes_falta += 12;
         }
@@ -54,11 +60,10 @@ int main(){
         printf("Ainda não!\n");
         cat(rand() % 5);
         if(mes_falta == 0)
-            printf("Volte daqui a %d dias\n", dia_falta);
+            printf("Volte daqui a %d dia(s).\n", dia_falta);
         else
-            printf("Volte daqui a %d mes(es) e %d dias\n", mes_falta, dia_falta);
-        printf("não se esqueça do bolo e dos presentes (não deixe o Tin de patas vazias!)\n");
+            printf("Volte daqui a %d mes(es) e %d dia(s).\n", mes_falta, dia_falta);
+        printf("Não se esqueça do bolo e dos presentes. Não deixe o Tin de patas vazias!\n");
     }
-
     return 0;
 }

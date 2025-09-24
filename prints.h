@@ -3,5 +3,7 @@
 
 void cat(int random_num);
 void cake(int random_num);
+void text();
+void num(int x);
 
 #endif
