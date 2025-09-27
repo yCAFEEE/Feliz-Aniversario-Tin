@@ -1,2 +1,8 @@
-# Feliz-Aniversario-Tin
-Algumas linhas de código para comemorar o dia do Tin
+# 🎉🎂Feliz Aniversário Tin!
+Algumas linhas de código para comemorar o dia do Tin.
+
+# 😼 Sobre Tin
+Tin, um vira-lata deveras charmoso e brincalhão, nasceu em 27 de novembro de 2019 e foi meu maior companheiro durante a pandemia de COVID-19. Seu passa-tempo predileto era caçar algo em que pudesse correr atrás, seja esse um besouro ou um laser qualquer, não era nada preguiçoso, raro eram os momentos onde se via ele tirando um cochilo — com exceção de depois do almoço, porque esse era sagrado. Comia feito um boi, miava e miava pedindo comida quando sua tigela estava vazia e quando enchiam sua tigela, fazia questão de deixá-la vazia novamente em segundos, e claro, voltava a miar para entenderem que apenas uma vasilha não era o suficiente saciar sua interminável fome. Apesar disso, nunca foi acima do peso — até porque sua rotina de 6 horas de cochilos e 18 horas indo atrás de alguma coisa ajudava.
+
+# 📑 Sobre o projeto
+Esse apanhado de códigos não tem nenhuma ideia mirabolante ou de trazer algo inovador, é apenas algo que quis fazer para homenagear e lembrar do meu companheiro. O programa tem como base a biblioteca time.h da linguagem C, que da acesso a data e hora do computador que está rodando o programa. Com isso — e usando do meu maior inimigo, a matemática básica — é possível com que seja calculado quanto tempo falta, ou não falta, da data atual da máquina até o aniversário do Tin. As artes em ascii foram tiradas de alguns sites e eu espero que nenhum artista me processe por ter pego uma arte e em breve será usado de um outro projeto para gerar novas artes — sem ter problema com processo dessa vez.
